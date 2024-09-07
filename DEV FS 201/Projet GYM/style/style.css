@@ -1,0 +1,31 @@
+body {
+    background-color: #000000;
+    color:rgb(0, 0, 0);
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#total-price {
+    font-weight: bold;
+    color: #28a745;
+}
+
+#payment-status {
+    text-align: center;
+    font-weight: bold;
+}
+
+#payment-status.success {
+    color: #28a745;
+}
+
+#payment-status.error {
+    color: #dc3545;
+}
+p{
+    color:black;
+}

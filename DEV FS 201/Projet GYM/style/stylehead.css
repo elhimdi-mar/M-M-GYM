@@ -1,0 +1,54 @@
+body {
+    margin-right: 100px;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+    float: right;
+    background-image: url(./bg.jpg);
+    background-color: black;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 1400px 700px;
+}
+
+.h4 {
+    float: left;
+    margin-top: -35px;
+    margin-left: -550px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-right: -130px;
+    display: flex;
+    /* Display the list items horizontally */
+}
+
+nav ul li {
+    margin-right: 60px;
+    /* Add some space between list items */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 124, 124);
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 3px solid #fff;
+    text-decoration: none;
+    color: grey;
+}
+
+.logo {
+    margin-top: -10px;
+    margin-left: -38px;
+}
+
+.nav {
+    margin-top: 50px;
+}
